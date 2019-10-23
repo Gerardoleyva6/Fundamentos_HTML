@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Educación</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body id="educacion">
+        <header>
+            <svg width="250px" viewBox="0 0 1200 400">
+            <image xlink:href="img/logo.svg"></image>
+            </svg>
+        </header>
+        <h1>Mi hoja de vida</h1>
+        <h2>Eloy Gerardo Leyva Olguín</h2>
+        <h3>Nacimiento: 12 de Mayo de 1992 en Queretaro, Qro, México </h3>
+        <section>
+            <a href="index.html">Inicio</a>
+            <br>
+            <a href="educacion.html">Educación</a>
+            <br>
+            <a href="experiencia.html">Experiencia</a>
+        </section>
+        <h2>Educación</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>¿Culmino?</th>  
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2007</td>
+                    <td>Felipe Carrillo Puerto</td>
+                    <td>Querétaro</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td>2010</td>
+                    <td>UAQ</td>
+                    <td>Querétaro</td>
+                    <td>Si</td>
+                </tr>
+                <tr>
+                    <td>2015</td>
+                    <td>CESBA</td>
+                    <td>Querétaro</td>
+                    <td>No</td>
+                </tr>
+            </tbody>                
+        </table>
+        <hr>
+        <h2>Agregar Estudios</h2>
+        <form>
+            <p>
+                <label for="ano"><strong>Año:</strong></label><br>
+                <select name="ano">
+                    <option>2004</option>
+                    <option>2005</option>
+                    <option>2006</option>
+                    <option>2007</option>
+                    <option>2008</option>
+                    <option>2009</option>
+                    <option>2010</option>
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                </select>
+            </p>
+            <p>
+                <label for="institucion"><strong>Institución:</strong></label><br>
+                <input type="text" name="institucion" required>
+            </p>
+            <p>
+                <label for="lugar"><strong>Lugar:</strong></label><br>
+                <textarea name="lugar" rows="2"></textarea>
+            </p>
+            <p>
+                <label for="culmino"><strong>¿Culmino?:</strong></label>
+                <input type="radio" name="culmino">Si
+                <input type="radio" name="culmino">No
+            </p>
+            <p>
+                <input type="submit" valur="Enviar">
+            </p>
+        </form>
+        <footer style="background:black;">
+            <p style="color:white;"><strong>® Todos los derechos reservados®</strong></p>
+            <p style="color:white;"><strong>Correo electronico: </strong>gerardo.leyva6@yahoo.com</p>
+            <p style="color:white;"><strong>Teléfono: </strong> (+52)442 467 5831</p>
+            <p style="color:white;"><strong>Redes Sociales: </strong>facebook....</p>
+            <p style="color:white;"><strong>Dirección: </strong>Garcilazo de la vega #114 Col. El tintero Querétaro, Qro.</p>
+        </footer>
+    </body>
+</html>
